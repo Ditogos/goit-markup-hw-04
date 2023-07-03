@@ -37,6 +37,9 @@ img {
   color: var(--slite-title-color);
   background-color: var(--backgrond-page-color);
 }
+
+/* Header style */
+
 .header {
   font-family: var(--prymary-font);
   background-color: var(--backgrond-page-color-header-color);
@@ -117,6 +120,9 @@ img {
   display: flex;
   gap: 40px;
 }
+
+/* section solution */
+
 .main-section-title {
   font-family: var(--prymary-font);
   color: var(--backgrond-page-color);
@@ -170,6 +176,9 @@ img {
 .button-text-section:focus {
   background-color: var(--hover-focus-color);
 }
+
+/* section info padding */
+
 .section-info-pading {
   padding: 120px 0;
 }
@@ -214,6 +223,9 @@ img {
 .info-title-calculate {
   width: calc((100% - 72px) / 4);
 }
+
+/*section images doing */
+
 .section-images-doing {
   padding-bottom: 120px;
 }
@@ -233,6 +245,9 @@ img {
 .calculate-width {
   width: calc(100% - 48px) / 3;
 }
+
+/* section portfolio team */
+
 .section-portfolio-team {
   padding: 120px 0;
   background-color: var(--footer-text-color);
@@ -277,6 +292,9 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
 }
+
+/* footer styles */
+
 .footer {
   padding: 100px 0;
   font-family: var(--prymary-font);
