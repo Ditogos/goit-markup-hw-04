@@ -8,7 +8,11 @@
   --slite-title-color: #434455;
   --hover-focus-color: #404bbf;
   --footer-text-color: #f4f4fd;
+  --cloud-gradient-rgba: rgba(244, 244, 253, 1);
 }
+
+/* Global styles */
+
 *,
 *::before,
 *::after {
@@ -31,6 +35,9 @@ ul {
 img {
   display: block;
 }
+
+/* Body */
+
 .body {
   margin: 0;
   font-family: var(--prymary-font);
@@ -126,7 +133,6 @@ img {
 .main-section-title {
   font-family: var(--prymary-font);
   color: var(--backgrond-page-color);
-  background-color: var(--backgrong-footer-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -141,14 +147,17 @@ img {
 }
 .main-section-solution {
   padding: 188px 0;
-  font-family: var(--prymary-font);
-  color: var(--backgrond-page-color);
-  background-color: var(--backgrong-footer-color);
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .list {
   list-style: none;
@@ -179,6 +188,21 @@ img {
 
 /* section info padding */
 
+.icon-info-container {
+  display: flex;
+  height: 112px;
+  width: 264px;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+  background-color: var(--cloud-gradient-rgba);
+  align-items: center;
+  justify-content: center;
+}
+/* .icon-info {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+} */
 .section-info-pading {
   padding: 120px 0;
 }
@@ -246,7 +270,7 @@ img {
   width: calc(100% - 48px) / 3;
 }
 
-/* section portfolio team */
+/* section portfolio our team */
 
 .section-portfolio-team {
   padding: 120px 0;
@@ -291,6 +315,25 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
+}
+.icon-team-calculate {
+  width: calc((100% - 72px) / 4);
+}
+.icon-team-media {
+  display: flex;
+  padding: 12px 12px;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(77, 90, 229, 1);
+  border-radius: 50%;
+}
+.icon-team-image {
+}
+.icon-team-container {
+  display: flex;
+  gap: 24px;
+  list-style: none;
 }
 
 /* footer styles */
