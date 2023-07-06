@@ -534,7 +534,6 @@ img {
 }
 .portfolio-image-calculate {
   width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-image-calculate:hover,
@@ -546,6 +545,7 @@ img {
 
 .portfolio-link-overlay {
   display: block;
+  box-shadow: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-link-overlay:hover {
@@ -693,6 +693,9 @@ img {
 .modal-buttom:hover .backdrop-icon,
 .modal-buttom:focus .backdrop-icon {
   border: none;
-  background-color: var(--hover-focus-color);
   fill: var(--backgrond-page-color);
+}
+.modal-buttom:hover,
+.modal-buttom:focus {
+  background-color: var(--hover-focus-color);
 }
