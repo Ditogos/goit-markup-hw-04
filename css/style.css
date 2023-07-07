@@ -99,10 +99,10 @@ img {
 }
 .nav-list-container {
   display: flex;
-  padding: 24px 0;
   gap: 40px;
 }
 .nav-list-studio {
+  display: block;
   position: relative;
   padding: 24px 0;
   font-family: var(--prymary-font);
@@ -216,7 +216,6 @@ img {
   display: flex;
   height: 112px;
   width: 264px;
-  padding: 24px 100px;
   margin-bottom: 8px;
   background-color: var(--cloud-gradient-rgba);
   align-items: center;
@@ -296,9 +295,7 @@ img {
   padding: 120px 0;
   background-color: var(--footer-text-color);
 }
-.section-portfolio-image {
-  display: flex;
-}
+
 .section-portfolio-title {
   margin-bottom: 72px;
   color: var(--backgrong-footer-color);
